@@ -1,6 +1,7 @@
 {
     "name": "dattrink/adminlte3",
-    "description": "An Admin layout using Adminlte 3",
+    "description": "Minimal Laravel authentication scaffolding with Blade and AdminLTE 3 layout.",
+    "keywords": ["laravel", "auth", "layout"],
     "autoload": {
         "psr-4": {
             "Dattrink\\Adminlte3\\": "src/"
@@ -12,8 +13,18 @@
             "email": "ttdat.email@gmail.com"
         }
     ],
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
     "minimum-stability": "dev",
-    "require": {},
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/filesystem": "^8.42|^9.0",
+        "illuminate/support": "^8.42|^9.0",
+        "illuminate/validation": "^8.42|^9.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
