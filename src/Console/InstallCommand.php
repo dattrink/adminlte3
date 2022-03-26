@@ -71,6 +71,9 @@ class InstallCommand extends Command
         copy(__DIR__.'/../../stubs/default/resources/js/app.js', resource_path('js/app.js'));
         copy(__DIR__.'/../../stubs/default/resources/js/bootstrap.js', resource_path('js/bootstrap.js'));
 
+        (new Filesystem)->ensureDirectoryExists(app_path('View'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../../stubs/default/app/View', app_path('View'));
+
         (new Filesystem)->ensureDirectoryExists(resource_path('views/layouts'));
         (new Filesystem)->copyDirectory(__DIR__.'/../../stubs/default/resources/views/layouts/adminlte3', resource_path('views/layouts/adminlte3'));
         copy(__DIR__.'/../../stubs/default/resources/views/layouts/app.blade.php', resource_path('views/layouts/app.blade.php'));
@@ -96,6 +99,7 @@ class InstallCommand extends Command
         /**
          * Layouts
          */
+        (new Filesystem)->ensureDirectoryExists(resource_path('views/auth'));
         copy(__DIR__.'/../../stubs/default/resources/views/auth/login.blade.php', resource_path('views/auth/login.blade.php'));
         copy(__DIR__.'/../../stubs/default/resources/views/auth/forgot-password.blade.php', resource_path('views/auth/forgot-password.blade.php'));
         copy(__DIR__.'/../../stubs/default/resources/views/auth/confirm-password.blade.php', resource_path('views/auth/confirm-password.blade.php'));
