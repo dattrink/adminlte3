@@ -1,0 +1,24 @@
+{
+    "name": "dattrink/adminlte3",
+    "description": "An Admin layout using Adminlte 3",
+    "autoload": {
+        "psr-4": {
+            "Dattrink\\Adminlte3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ttdat",
+            "email": "ttdat.email@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dattrink\\Adminlte3\\Adminlte3ServiceProvider"
+            ]
+        }
+    }
+}
