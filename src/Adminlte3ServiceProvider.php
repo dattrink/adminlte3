@@ -2,13 +2,12 @@
 
 namespace Dattrink\Adminlte3;
 
-use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 use Dattrink\Adminlte3\View\SampleCard;
 use Dattrink\Adminlte3\View\SampleBreadcrumb;
 
-class Adminlte3ServiceProvider extends ServiceProvider implements DeferrableProvider
+class Adminlte3ServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
