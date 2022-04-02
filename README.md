@@ -6,8 +6,8 @@ Easy to install AdminLTE 3 theme and implements Brezee Starter Kit
 
 |Version|Support|
 |---|---|
-|Laravel 9.x|x|
-|Laravel 8.x|x|
+|Laravel 9.x| x |
+|Laravel 8.x| x |
 |Laravel 7.x| |
 |Laravel 6.x| |
 
@@ -35,9 +35,10 @@ npm install && npm run dev
 
 - Remove argument `--hide-modules` in package.json:
 
-Exam:
+Sample:
 
 ```json
+ {
   ...
       "scripts": {
         "dev": "npm run development",
@@ -49,6 +50,7 @@ Exam:
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
   ...
+ }
 ```
 
 # About this package
