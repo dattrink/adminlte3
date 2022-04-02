@@ -6,8 +6,8 @@ Easy to install AdminLTE 3 theme and implements Brezee Starter Kit
 
 |Version|Support|
 |---|---|
-|Laravel 9.x|x|
-|Laravel 8.x|x|
+|Laravel 9.x| x |
+|Laravel 8.x| x |
 |Laravel 7.x| |
 |Laravel 6.x| |
 
