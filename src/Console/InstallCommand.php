@@ -76,7 +76,7 @@ class InstallCommand extends Command
 
         (new Filesystem)->ensureDirectoryExists(resource_path('views/layouts'));
         (new Filesystem)->copyDirectory(__DIR__.'/../../stubs/default/resources/views/layouts/adminlte3', resource_path('views/layouts/adminlte3'));
-        copy(__DIR__.'/../../stubs/default/resources/home.blade.php', resource_path('views/home.blade.php'));
+        copy(__DIR__.'/../../stubs/default/resources/views/home.blade.php', resource_path('views/home.blade.php'));
         copy(__DIR__.'/../../stubs/default/resources/views/layouts/app.blade.php', resource_path('views/layouts/app.blade.php'));
         copy(__DIR__.'/../../stubs/default/resources/views/layouts/guest.blade.php', resource_path('views/layouts/guest.blade.php'));
         
