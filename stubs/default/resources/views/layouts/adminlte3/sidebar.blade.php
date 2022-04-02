@@ -33,7 +33,7 @@
              with font-awesome or any other icon font library -->
         <li class="nav-header">MAIN FEATURES</li>
         <li class="nav-item">
-          <a href="{{ route('dashboard') }}" class="nav-link active">
+          <a href="{{ route('home') }}" class="nav-link active">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard
