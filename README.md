@@ -17,6 +17,8 @@ php artisan adminlte3:install
 
 php artisan migrate
 
+php artisan storage:link
+
 npm install && npm run dev
 ```
 
