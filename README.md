@@ -2,7 +2,7 @@
 
 Easy to install AdminLTE 3 theme and implements Brezee Starter Kit
 
-# Support Laravel Version
+# Support Laravel version
 
 |Version|Support|
 |---|---|
@@ -51,7 +51,7 @@ Exam:
   ...
 ```
 
-# Aout this package
+# About this package
 - Replace app and guest layout
 - Install and implement laravel/breeze package with AdminLTE 3
 
